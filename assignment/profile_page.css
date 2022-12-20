@@ -1,0 +1,33 @@
+.skills{
+    background-color: grey;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+    margin: 20px;
+    font-family:'Roboto';
+    font-weight: 500;
+    font-size: 18px;
+}
+.container-back{
+    
+    display: flex;
+    flex-direction: column;
+}
+.heading{
+    color: black;
+    font-size: 23px;
+    font-weight: 700;
+    font-family:'Roboto';
+}
+.side-headings{
+    color: grey;
+    font-size: 23px;
+    font-family: 'sans-serif';
+
+}
+.main-heading{
+    font-family:'sans-serif';
+    font-weight: 700;
+    text-align: center;
+    padding: 30px;
+}

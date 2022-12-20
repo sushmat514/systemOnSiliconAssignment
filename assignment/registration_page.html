@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration page</title>
+        <link rel="stylesheet" href="registration_page.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container p-5">
+
+            <form>
+                <h1 class="heading">Registration page</h1>
+                <label for="inputName" class="label-element">Name:</label>
+                <input id = "inputName"type = "text" placeholder="Enter name" class="input-box">
+                <p class="error-msg" id = "nameErrorMsg"></p>
+                
+                <label for="inputUsername" class="label-element">Username:</label>
+                <input id = "inputUsername"type = "text" placeholder="Enter Username" class="input-box">
+                <p class="error-msg" id = "usernameErrorMsg"></p>
+                
+                <label for="inputEmail" class="label-element">Email:</label>
+                <input id = "inputEmail"type = "text" placeholder="example@gmail.com" class="input-box">
+                <p class="error-msg" id = "emailErrorMsg"></p>
+                
+                <label for="inputPassword" class="label-element">Password:</label>
+                <input id = "inputPassword"type = "Password" placeholder="Password" class="input-box">
+                <p class="error-msg" id = "passwordErrorMsg"></p>
+                
+                <label for="reEnterPassword" class="label-element">Re-enter password:</label>
+                <input id="reEnterPassword" type = "text" placeholder="Password" class="input-box">
+                <p class="error-msg" id = "repassErrorMsg"></p>
+                
+                <button class="btn btn-primary button">Submit</button>
+            </form>
+        </div>
+        <script src = "registration_page.js"></script>
+    </body>
+</html>

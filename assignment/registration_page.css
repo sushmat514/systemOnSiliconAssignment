@@ -1,0 +1,32 @@
+.input-box{
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 23px;
+    font-weight: 500;
+    margin: 15px;
+    width: 98%;
+    margin-left: auto;;
+}
+.label-element{
+    color: #4e4545;
+    font-size: 23px;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+.heading{
+    font-size: 43px;
+    font-family:'Roboto';
+    text-align: left;
+    padding: 10px;
+    text-align: center;
+}
+.button{
+    padding: 15px !important;
+    font-size: 23px !important;
+    border-radius: 8px !important;
+}
+.error-msg{
+    color: Red;
+    font-size: 15px;
+    font-family: 'Roboto';
+}
