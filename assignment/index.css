@@ -1,0 +1,41 @@
+.input-box{
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 23px;
+    font-weight: 500;
+    margin: 15px;
+    width: 98%;
+    margin-left: auto;;
+}
+.login-button{
+    padding: 15px;
+    font-family: 'Roboto';
+    font-size: 18px;
+    background-color: #0b6da76e;
+    border-radius: 10px;
+    margin: 15px;
+    color: white;
+    width: 100px;
+
+}
+.container1{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff; 
+    border-radius: 10px;
+    box-shadow: inset;
+    border-width: 1px;
+    border-style: solid;
+    width: 30vw;
+    text-align: center;
+    border-color: white;
+    padding: 30px;
+}
+.Login-heading{
+    font-size: 43px;
+    font-family:'Roboto';
+    text-align: left;
+    padding: 10px;
+}
